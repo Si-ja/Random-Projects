@@ -1,7 +1,22 @@
-The pirates, the coconuts and the monkey problem.
-Python based solution, but not finished due to errors with when there is only 1 pirate.
+#The pirates, the coconuts and the monkey problem.
+#Python based solution, this accounting for when there is only 1 pirate.
 
 def pirates(crew):
+    
+    if crew <= 0:
+        print("Number of crew members seems to be smaller or equal to zero. Please re-evaluate your equation!")
+        return
+
+    if crew/int(round(crew, 1)) != 1:
+        print("The value for the crew members is not an integer full value!")
+        return
+
+    if crew == 1:
+        coconuts = 2
+        print(coconuts)
+        print("But re-evaluation needs to be done, as the puzzle is not based on such conditions where there is only 1 pirate!")
+        return
+    
     coconuts = 1
     pile = coconuts
     i = 0
@@ -16,4 +31,4 @@ def pirates(crew):
             continue
     print(coconuts)
 
-pirates(2)
+pirates(5)
