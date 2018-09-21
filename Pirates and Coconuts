@@ -1,0 +1,19 @@
+The pirates, the coconuts and the monkey problem.
+Python based solution, but not finished due to errors with when there is only 1 pirate.
+
+def pirates(crew):
+    coconuts = 1
+    pile = coconuts
+    i = 0
+    while i < crew+1:
+        if pile%crew == 1:
+            pile = int((1/crew * (crew-1))*(pile-1))
+            i += 1
+        else:
+            coconuts += 1
+            i = 0
+            pile = coconuts
+            continue
+    print(coconuts)
+
+pirates(2)
