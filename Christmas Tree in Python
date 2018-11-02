@@ -7,6 +7,7 @@
 
 def egle(size):
     if size > 63:
+        #63 is an arbitrary number, but it seems it works quite well with visualization in Jupyter Notebooks
         print("Пожалуйста, выберите число меньше чем 64")
         return
         
