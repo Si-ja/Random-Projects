@@ -1,0 +1,42 @@
+#Christmas tree made in mirrored fashion
+#    ++
+#   ++++
+#  ++++++
+# ++++++++
+#++++++++++
+
+def egle(size):
+    if size > 63:
+        print("Пожалуйста, выберите число меньше чем 64")
+        return
+        
+    tree = "+"
+    space = " "
+    mid = int(size/2)
+    for i in range(1 , size+1):
+        print(space*(size-i) + tree*(i*2))
+
+###########---------------------------------------------------################
+#Christmas tree made in sections of 1s
+#     +
+#    +++
+#   +++++
+#  +++++++
+# +++++++++
+
+def egle2(size):
+    if size > 63:
+        print("Пожалуйста, выберите число меньше чем 64")
+        return
+
+    tree = "+"
+    space = " "
+    mid = int(size/2)
+    for i in range(size):
+        print(space*(size-i)+tree)
+        tree = "+" + tree + "+"
+
+
+
+#egle(size = int(input()))
+#egle2(size = int(input()))
