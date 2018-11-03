@@ -1,0 +1,129 @@
+def win_checker(fboard):
+    end_game = "no winner"
+    #check all of various conditions to know who won and if someone won the game already
+    if fboard[0][0] == "|_X_|" and fboard[0][1] == "|_X_|" and fboard[0][2] == "|_X_|":
+        print("The Player has won!")
+        end_game = "winner"
+    
+    if fboard[0][0] == "|_O_|" and fboard[0][1] == "|_O_|" and fboard[0][2] == "|_O_|":
+        print("The Computer has won!")
+        end_game = "winner"
+        
+    if fboard[1][0] == "|_X_|" and fboard[1][1] == "|_X_|" and fboard[1][2] == "|_X_|":
+        print("The Player has won!")
+        end_game = "winner"
+    
+    if fboard[1][0] == "|_O_|" and fboard[1][1] == "|_O_|" and fboard[1][2] == "|_O_|":
+        print("The Computer has won!")
+        end_game = "winner"
+        
+    if fboard[2][0] == "|_X_|" and fboard[2][1] == "|_X_|" and fboard[2][2] == "|_X_|":
+        print("The Player has won!")
+        end_game = "winner"
+    
+    if fboard[2][0] == "|_O_|" and fboard[2][1] == "|_O_|" and fboard[2][2] == "|_O_|":
+        print("The Computer has won!")
+        end_game = "winner"
+         
+    if fboard[0][0] == "|_X_|" and fboard[1][0] == "|_X_|" and fboard[2][0] == "|_X_|":
+        print("The Player has won!")
+        end_game = "winner"
+    
+    if fboard[0][0] == "|_O_|" and fboard[1][0] == "|_O_|" and fboard[2][0] == "|_O_|":
+        print("The Computer has won!")
+        end_game = "winner"
+        
+    if fboard[0][1] == "|_X_|" and fboard[1][1] == "|_X_|" and fboard[2][1] == "|_X_|":
+        print("The Player has won!")
+        end_game = "winner"
+    
+    if fboard[0][1] == "|_O_|" and fboard[1][1] == "|_O_|" and fboard[2][1] == "|_O_|":
+        print("The Computer has won!")
+        end_game = "winner"
+        
+    if fboard[0][2] == "|_X_|" and fboard[1][2] == "|_X_|" and fboard[2][2] == "|_X_|":
+        print("The Player has won!")
+        end_game = "winner"
+    
+    if fboard[0][2] == "|_O_|" and fboard[1][2] == "|_O_|" and fboard[2][2] == "|_O_|":
+        print("The Computer has won!")
+        end_game = "winner"
+              
+    if fboard[0][0] == "|_X_|" and fboard[1][1] == "|_X_|" and fboard[2][2] == "|_X_|":
+        print("The Player has won!")
+        end_game = "winner"
+    
+    if fboard[0][0] == "|_O_|" and fboard[1][1] == "|_O_|" and fboard[2][2] == "|_O_|":
+        print("The Computer has won!")
+        end_game = "winner"
+        
+    if fboard[0][2] == "|_X_|" and fboard[1][1] == "|_X_|" and fboard[2][0] == "|_X_|":
+        print("The Player has won!")
+        end_game = "winner"
+    
+    if fboard[0][2] == "|_O_|" and fboard[1][1] == "|_O_|" and fboard[2][0] == "|_O_|":
+        print("The Computer has won!")
+        end_game = "winner"
+        
+    if fboard[0][0] != "|___|" and fboard[1][0] != "|___|" and fboard[2][0] != "|___|" and fboard[0][1] != "|___|" and fboard[1][1] != "|___|" and fboard[2][1] != "|___|" and fboard[0][2] != "|___|" and fboard[1][2] != "|___|" and  fboard[2][2] != "|___|" and end_game != "winner":
+        print("No more turns left!")
+        end_game = "winner"
+        
+    return end_game
+    
+    
+    
+ ###-------------------------------------------------------------
+ import numpy as np
+from IPython.display import clear_output
+checker = [["1","1"],["1","2"],["1","3"],["2","1"],["2","2"],["2","3"],["3","1"],["3","2"],["3","3"]]
+board = np.zeros(9).reshape(3,3)
+fboard = []
+for r in board:
+    pboard = []
+    for c in r:
+        pboard.append("|___|")
+    fboard.append(pboard)
+fboard = np.asarray(fboard)
+game = False
+
+while game != True:
+    if win_checker(fboard) == "winner":
+        game = True
+        print(fboard)
+        print("Game Over!")
+        break
+    else:
+        #1st the player
+        print(fboard)
+        print("Please indicate a Row and Column you want to put an X in")
+        ppos = input()
+        clear_output()
+        while ppos.split(",") not in checker:
+            print("Please enter a value with a comma indicating the Row and Column")
+            print(fboard)
+            ppos = input()
+            clear_output()
+        else:
+            clear_output()
+            ppos1 = int(ppos.split(",")[0])
+            ppos2 = int(ppos.split(",")[1])
+    
+        if fboard[ppos1 - 1][ppos2 - 1] == "|___|" and fboard[ppos1 - 1][ppos2 - 1] != "X" and fboard[ppos1 - 1][ppos2 - 1] != "O":
+            fboard[ppos1 - 1][ppos2-1] = "|_X_|"
+            csuc = ""
+        
+        if win_checker(fboard) == "winner":
+            print(fboard)
+            game = True
+            print("Game Over!")
+            break
+        else:
+            while csuc != "success":
+    
+                #2nd player - machine
+                cpos1 = int(np.random.uniform(0,3))
+                cpos2 = int(np.random.uniform(0,3))
+                if fboard[cpos1][cpos2] == "|___|" and fboard[cpos1][cpos2] != "|_X_|" and fboard[cpos1][cpos2] != "|_O_|":
+                    fboard[cpos1][cpos2] = "|_O_|"
+                    csuc = "success"
