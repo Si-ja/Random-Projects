@@ -12,8 +12,12 @@ To explain how it works as I understand: there are additional symbols that do no
 Letters that I got I have used from the repository of MetroWind's project (from Github). https://gist.github.com/MetroWind/1401473/4631da7a4540a63e72701792a4aa0262acc7d397 Giving credit where credit is due. But I believe they are the same symbols as we saw on Zalgo Text Generator by Tchouky: http://www.eeemo.net. My life was just a lot easier searching for them.
 
 This repository holds
-> Example text.
+> Example text
+
 > Screenshots of the GUI
+
 > Initial file in .ipynb format where I experimented with this methodology
+
 > .py file that holds all of the code to run that also starts the GUI
+
 > .bat file that you can place into your folder to start the .py file automatically.
