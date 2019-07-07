@@ -1,3 +1,5 @@
+# Pirates, Monkey & Coconuts
+
 This is a small excercise I remember doing in the University, during learning of the coding principles.
 
 Description of the concept was the following:
