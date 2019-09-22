@@ -5,4 +5,4 @@ No neural networks used.
 
 Current Status: Storage
 
-TODO: Create comprehensive description
+__TODO:__ Create comprehensive description
