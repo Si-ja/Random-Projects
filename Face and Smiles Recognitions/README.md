@@ -4,4 +4,5 @@ A simple .py script that starts the video caputre from your primary webcam and h
 No neural networks used.
 
 Current Status: Storage
+
 TODO: Create comprehensive description
