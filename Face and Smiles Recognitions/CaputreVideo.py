@@ -2,8 +2,8 @@ import cv2
 
 video = cv2.VideoCapture(0)
 a = 0
-face_cascade = cv2.CascadeClassifier(r"D:\All for Work Projects\Python Projects\Detections CV\haarcascade_frontalface_default.xml")
-smile_cascade = cv2.CascadeClassifier(r"D:\All for Work Projects\Python Projects\Detections CV\haarcascade_smile.xml")
+face_cascade = cv2.CascadeClassifier(r".\haarcascade_frontalface_default.xml")
+smile_cascade = cv2.CascadeClassifier(r".\haarcascade_smile.xml")
 
 state = str("default") # Initiate a default state at first
 while True: #Everything will be contained inside of this loop either way, will be cluttered
