@@ -20,6 +20,7 @@ java TheGame
 
 Enjoy.
 
+----
 __Regarding Licenses:__
 
 Was made for fun, so use it for fun, not commercial purposes...though with this quality, let's be fair, who will buy it.
