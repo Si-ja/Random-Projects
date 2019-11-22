@@ -6,9 +6,9 @@ This version was written in a relativelly simple manner and can be played in the
 
 * Players vs Player
 * Player vs Computer:
-> Easy mode - Player Starts and computer is fully random
-> Medium mode - Computer Starts and is fully random
-> Hard mode - Computer Starts and plays by a certain solid strategy
+- Easy mode - Player Starts and computer is fully random
+- Medium mode - Computer Starts and is fully random
+- Hard mode - Computer Starts and plays by a certain solid strategy
 
 Just compile it and play.
 ```
