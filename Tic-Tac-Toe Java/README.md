@@ -11,8 +11,7 @@ This version was written in a relativelly simple manner and can be played in the
 > Hard mode - Computer Starts and plays by a certain solid strategy
 
 Just compile it and play.
-`javac TheGame.java
-
+`javac TheGame.java//
 java TheGame`
 
 Enjoy.
