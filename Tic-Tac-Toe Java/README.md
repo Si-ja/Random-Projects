@@ -13,8 +13,8 @@ This version was written in a relativelly simple manner and can be played in the
 ----
 
 The structure of the code:
-* TheGame.java contains the main method in which the whole game is structured for various ways it can be played.
-* Board.java creates an field object, that represents the board. All methods saved in it are ment to verify how the board looks, what moves players make, etc.  
+* `TheGame.java` contains the main method in which the whole game is structured for various ways it can be played.
+* `Board.java` creates an field object, that represents the board. All methods saved in it are ment to verify how the board looks, what moves players make, etc.  
 
 Just compile it and play.
 ```
