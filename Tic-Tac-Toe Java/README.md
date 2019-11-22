@@ -12,6 +12,7 @@ This version was written in a relativelly simple manner and can be played in the
 
 Just compile it and play.
 `javac TheGame.java
+
 java TheGame`
 
 Enjoy.
