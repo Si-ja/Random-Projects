@@ -13,18 +13,18 @@ This is an attempt to create the following in python:
 ---
 __Conditions:__
 
-⋅⋅* Particles can be only of 4 different colors.
-⋅⋅* Some particles seek to primarily move left-right, others up-down, but all can..."gitter" (i.e. produce random movement), but on smaller scale.
-⋅⋅* As soon as a moving particle reaches the edge of 100x100 field - it changes color and moves in the opposite direction.
-⋅⋅* The subplot 2 on the right side visualizes the dominance of one color of particles over others. It is also updatable.
+* Particles can be only of 4 different colors.
+* Some particles seek to primarily move left-right, others up-down, but all can..."gitter" (i.e. produce random movement), but on smaller scale.
+* As soon as a moving particle reaches the edge of 100x100 field - it changes color and moves in the opposite direction.
+* The subplot 2 on the right side visualizes the dominance of one color of particles over others. It is also updatable.
 
 ---
 __Requirements:__
 
 1. Have installed packages:
-⋅⋅* matplotlib
-⋅⋅* pandas
-⋅⋅* numpy
+  * matplotlib
+  * pandas
+  * numpy
 2. Copy the .py file into your folder and you can execute it via cmd/terminal by running:
 `python ParticlesMovement.py -p 100`
 A value after -p can be changed to the amount of particles you want to run for your case, that will be visualized. 
