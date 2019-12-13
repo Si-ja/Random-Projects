@@ -13,7 +13,7 @@ This is an attempt to create the following in python:
 Conditions:
 ⋅⋅* Particles can be only of 4 different colors.
 ⋅⋅* Some particles seek to primarily move left-right, others up-down, but all can..."gitter" (i.e. produce random movement), but on smaller scale.
-⋅⋅* As soon as a moving particle reaches the edge of $100$x$100$ field - it changes color and moves in the opposite direction.
+⋅⋅* As soon as a moving particle reaches the edge of 100x100 field - it changes color and moves in the opposite direction.
 ⋅⋅* The subplot 2 on the right side visualizes the dominance of one color of particles over others. It is also updatable.
 
 ---
@@ -30,7 +30,7 @@ For additional information and help you can run command:
 
 ---
 __WARNING:__
-Currenly in the code line $240$ has a command
+Currenly in the code line 240 has a command
 
 ```{python}
 fig.savefig('Particles_Example.png')
