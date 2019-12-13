@@ -3,10 +3,10 @@
 This is an attempt to create the following in python:
 
 1. Generate circles/particles as objects.
-* Particles size is randomly generated;
-* Particles position is randomly generated;
-* Particles color is randomly generated;
-* Particles movement speed is randomly generated;
+  * Particles size is randomly generated;
+  * Particles position is randomly generated;
+  * Particles color is randomly generated;
+  * Particles movement speed is randomly generated;
 2. Generate as many random particles as desired and populate a working environment with them that can be visualized with matplotlib package.
 3. Allow particles to move, which is represented through the animation of the matplotlib visualized figure.
 
