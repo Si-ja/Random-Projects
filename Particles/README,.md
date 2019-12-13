@@ -10,14 +10,16 @@ This is an attempt to create the following in python:
 3. Allow particles to move, which is represented through the animation of the matplotlib visualized figure.
 
 ---
-Conditions:
+__Conditions:__
+
 ⋅⋅* Particles can be only of 4 different colors.
 ⋅⋅* Some particles seek to primarily move left-right, others up-down, but all can..."gitter" (i.e. produce random movement), but on smaller scale.
 ⋅⋅* As soon as a moving particle reaches the edge of 100x100 field - it changes color and moves in the opposite direction.
 ⋅⋅* The subplot 2 on the right side visualizes the dominance of one color of particles over others. It is also updatable.
 
 ---
-Requirements to run it:
+__Requirements:__
+
 1. Have installed packages:
 ⋅⋅* matplotlib
 ⋅⋅* pandas
@@ -30,6 +32,7 @@ For additional information and help you can run command:
 
 ---
 __WARNING:__
+
 Currenly in the code line 240 has a command
 
 ```{python}
