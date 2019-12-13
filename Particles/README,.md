@@ -29,7 +29,7 @@ For additional information and help you can run command:
 `python ParticlesMovement.py -h`
 
 ---
-WARNING:
+__WARNING:__
 Currenly in the code line $240$ has a command
 
 ```{python}
