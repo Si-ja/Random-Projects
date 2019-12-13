@@ -42,3 +42,8 @@ fig.savefig('Particles_Example.png')
 
 It will save the visualization of the plots you are producing. It is recommended to reduce the delays in execution of the code.
 Currently this function was added just to save an example for visual demonstration of the program running.
+
+---
+__EXAMPLE:__
+
+![alt text](https://github.com/Si-ja/Random-Projects/blob/master/Particles/Particles_Example.png "Example")
