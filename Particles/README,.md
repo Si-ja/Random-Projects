@@ -9,7 +9,7 @@ This is an attempt to create the following in python:
 2. Generate as many random particles as desired and populate a working environment with them that can be visualized with matplotlib package.
 3. Allow particles to move, which is represented through the animation of the matplotlib visualized figure.
 
------
+---
 Conditions:
 ⋅⋅* Particles can be only of 4 different colors.
 ⋅⋅* Some particles seek to primarily move left-right, others up-down, but all can..."gitter" (i.e. produce random movement), but on smaller scale.
