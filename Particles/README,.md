@@ -16,7 +16,7 @@ Conditions:
 ⋅⋅* As soon as a moving particle reaches the edge of $100$x$100$ field - it changes color and moves in the opposite direction.
 ⋅⋅* The subplot 2 on the right side visualizes the dominance of one color of particles over others. It is also updatable.
 
-======
+---
 Requirements to run it:
 1. Have installed packages:
 ⋅⋅* matplotlib
@@ -28,11 +28,13 @@ A value after -p can be changed to the amount of particles you want to run for y
 For additional information and help you can run command:
 `python ParticlesMovement.py -h`
 
-======
+---
 WARNING:
 Currenly in the code line $240$ has a command
+
 ```{python}
 fig.savefig('Particles_Example.png')
 ```
+
 It will save the visualization of the plots you are producing. It is recommended to reduce the delays in execution of the code.
 Currently this function was added just to save an example for visual demonstration of the program running.
