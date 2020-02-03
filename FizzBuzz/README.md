@@ -1,4 +1,4 @@
-A simple instance of FizzBuzz code done with the python script and classes. Standard rules were used:
+A simple instance of FizzBuzz code done with Python and Java with the similar applications. Standard rules were used:
 ---
 * For multiples of three - print “Fizz” 
 * For multiples of five - print “Buzz”
