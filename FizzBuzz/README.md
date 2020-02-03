@@ -1,0 +1,26 @@
+A simple instance of FizzBuzz code done with the python script and classes. Standard rules were used:
+---
+* For multiples of three - print “Fizz” 
+* For multiples of five - print “Buzz”
+* For multiples of both three and five - print “FizzBuzz”
+* In other cases - print the number
+
+
+Output of the current code is:
+```
+1
+2
+Fizz
+4
+Buzz
+Fizz
+7
+8
+Fizz
+Buzz
+11
+Fizz
+13
+14
+FizzBuzz
+```
