@@ -2,8 +2,8 @@ class FizzBuzz:
 
     def __init__(self, start, end):
         """Initiate conditions where the fizzbuzz will start and end at"""
-        self._start = start
-        self._end   = end + 1
+        self.__start = start
+        self.__end   = end + 1
         
     def verify(self, idx):
         """A verifying method to keep less conditions pre-occupied"""
@@ -18,7 +18,7 @@ class FizzBuzz:
         
     def fizzbuzz(self):
         """Prepare the printing instance of required fizzbuzz conditions"""
-        for idx in range(self._start, self._end):
+        for idx in range(self.__start, self.__end):
             print(self.verify(idx))
      
 if __name__ == "__main__": 
