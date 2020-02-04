@@ -24,3 +24,5 @@ Fizz
 14
 FizzBuzz
 ```
+
+The Optimized Java version offers a more concise and maybe even more simple to understand solution to the problem.
