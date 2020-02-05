@@ -13,8 +13,8 @@ public class FizzBuzz {
 		
 		//Slight optimization happens as each condition is evaluated seperatelly and less computing is done
 		//And also now everything can be brought to one line of conditioning
-		if (idx % 3 == 0) answer = answer + "Fizz";
-		if (idx % 5 == 0) answer = answer + "Buzz";
+		if (idx % 3 == 0) answer += "Fizz";
+		if (idx % 5 == 0) answer += "Buzz";
 		
 		//Deliver on FizzBuzz output
 		System.out.println(answer.equals("") ? idx : answer);
