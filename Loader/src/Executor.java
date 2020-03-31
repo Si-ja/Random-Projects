@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 /**
  * Main Class that acts as a base executor in the domain of loader.io
- * @author Nikita
+ * @author Si-ja
  *
  */
 
