@@ -24,10 +24,10 @@ public class Executor {
 		String forFibonacci = scanner.nextLine();
 		
 		//Parse the value and convert it into an integer
-		Integer forFibonacci_int = Integer.parseInt(forFibonacci);
+		Integer forFibonacci_double = Integer.parseInt(forFibonacci);
 		
 		//Pass the converted integer to the method that will find the sequential value in the Fibonnaci sequence
-		Integer answer = seq.calculateFibonacci(forFibonacci_int);
+		double answer = seq.calculateFibonacci(forFibonacci_double);
 		
 		//Close the scanner
 		scanner.close();
