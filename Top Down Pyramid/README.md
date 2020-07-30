@@ -1,4 +1,4 @@
-Printing of a Pyramid - top down.
+# Printing of a Pyramid - top down.
 
 A small code in R showing how to print a top down view of a Pyramid, where the smallest value is the top of it and largest are the building foundation.
 
