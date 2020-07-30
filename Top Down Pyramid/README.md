@@ -2,7 +2,7 @@
 
 A small code in R showing how to print a top down view of a Pyramid, where the smallest value is the top of it and largest are the building foundation.
 
-With something like 5 layer the pyramid would look the following way:
+With something like 5 layers the pyramid would look the following way:
 
 ```
       [,1] [,2] [,3] [,4] [,5] [,6] [,7] [,8] [,9]
